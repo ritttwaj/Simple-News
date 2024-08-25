@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Simple News",
+    "slug": "Simple News",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/simple-news-logo.png",
+    "splash": {
+      "image": "./assets/splash-main.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5f348a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "ritwaj.simplenews",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/simple-news-logo.png",
+        "backgroundColor": "#5f348a"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
