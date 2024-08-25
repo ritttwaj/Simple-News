@@ -1,14 +1,30 @@
+# Node modules
 node_modules/
+  
+# Expo
 .expo/
-dist/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+.expo-shared/
 
-# macOS
+# Logs
+*.log
+*.log.*
+npm-debug.log*
+
+# MacOS files
 .DS_Store
+
+# Build outputs
+android/
+ios/
+build/
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Miscellaneous
+.vscode/
+.idea/
