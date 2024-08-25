@@ -21,7 +21,7 @@ A simple React Native news reader application that fetches news articles from a 
 1. **Clone the repository:**
 
    ```bash
-   https://github.com/ritttwaj/Simple-News.git
+   git clone https://github.com/ritttwaj/Simple-News.git
    cd Simple-News
    ```
 
